@@ -157,8 +157,8 @@ actual_path=$(pwd)
 cat $actual_path/compton/compton.conf > $HOME/.config/compton.conf
 
 #Escrevendo xresources
-cat $actual_path/xresources/.extend.Xresources > $HOME/.extend.Xresources
-cat $actual_path/xresources/.Xresources > $HOME/.Xresources
+cat $actual_path/xresources/extend.Xresources > $HOME/.extend.Xresources
+cat $actual_path/xresources/Xresources > $HOME/.Xresources
 
 #Escrevendo i3 config
 cat $actual_path/i3/config > $HOME/.config/i3/config
