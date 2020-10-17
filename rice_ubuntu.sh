@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-#Linkando o ambiente (apenas para manter o script heterogeneo)
 if [ -e /bin/env]
 then
 	echo "... /bin/env found."
